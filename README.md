@@ -2,7 +2,7 @@
 
 A TypeScript starter for Express that includes all you need to build amazing projects. 🔥
 
-- 📏 **ESLint** — Pluggable JavaScript linter
+- 📏 **ESLint** - Pluggable JavaScript linter
 - 💖 **Prettier** - Opinionated Code Formatter
 - 🗂 **Absolute import** - Import folders and files using the `@` prefix
 
