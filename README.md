@@ -3,7 +3,8 @@
 A TypeScript starter for Express that includes all you need to build amazing projects. 🔥
 
 - 📏 **ESLint** - Pluggable JavaScript linter
-- 💖 **Prettier** - Opinionated Code Formatter
+- 💖 **Prettier** - Opinionated code formatter
+- 🎭 **Jest** - Jest tool for functionality testing
 - 🗂 **Absolute import** - Import folders and files using the `@` prefix
 
 ## 🚀 Getting started
