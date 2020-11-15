@@ -24,14 +24,28 @@
         "prettier"
     ],
     "rules": {
+      "prettier/prettier": "error",
+      "camelcase": "off",
+      "class-methods-use-this": "off",
+      "no-useless-constructor": "off",
+      "@typescript-eslint/naming-convention": [
+        "error",
+        {
+          "selector": "interface",
+          "format": ["PascalCase"],
+          "custom": {
+            "regex": "^I[A-Z]",
+            "match": true
+          }
+        }
+      ],
       "import/extensions": [
         "error",
         "ignorePackages",
         {
           "ts": "never"
         }
-      ],
-      "prettier/prettier": "error"
+      ]
     },
     "settings": {
       "import/resolver": {

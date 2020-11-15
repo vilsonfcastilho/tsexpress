@@ -2,10 +2,14 @@
 
 A TypeScript starter for Express that includes all you need to build amazing projects. 🔥
 
+- 🗂 **DDD** - Domain Driven Design pattern
+- ⚖ **SOLID** - Principles of software design
+- 🔑 **JWT** - JSON Web Token authentication
 - 📏 **ESLint** - Pluggable JavaScript linter
 - 💖 **Prettier** - Opinionated code formatter
-- 🎭 **Jest** - Jest tool for functionality testing
-- 🗂 **Absolute import** - Import folders and files using the `@` prefix
+- 🎭 **Jest** - Tool for functionality testing
+- 💾 **TypeORM** - Configure your database using TypeScript and Javascript
+- 📂 **Absolute import** - Import folders and files using the `@` prefix
 
 ## 🚀 Getting started
 
