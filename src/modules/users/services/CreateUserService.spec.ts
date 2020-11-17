@@ -1,9 +1,17 @@
-describe('CreateAppointment', () => {
-  it('should be able to create a new appointment', () => {
-    expect(1 + 2).toBe(3);
-  });
+import FakeUsersRepository from '../repositories/fakes/FakeUsersRepository';
+import CreateUserService from './CreateUserService';
 
-  it('should not be able to create two appointments in the same time', () => {
-    expect(1 + 2).toBe(3);
+describe('CreateUser', () => {
+  it('should be able to create a new user', async () => {
+    const fakeUsersRepository = new FakeUsersRepository();
+
+    const createUser = new CreateUserService(fakeUsersRepository);
+
+    const user = await createUser.execute({
+      email: 'johndoe@email.com',
+      password: '123456',
+    });
+
+    expect(user).toHaveProperty('id');
   });
 });
