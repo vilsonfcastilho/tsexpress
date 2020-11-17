@@ -1,8 +1,8 @@
 import { Request, Response } from 'express';
 import { container } from 'tsyringe';
 
-import CreateUserService from '../../../services/CreateUserService';
-import UsersRepository from '../../typeorm/repositories/UsersRepository';
+import UsersRepository from '@modules/users/infra/typeorm/repositories/UsersRepository';
+import CreateUserService from '@modules/users/services/CreateUserService';
 
 class UsersController {
   public async index(req: Request, res: Response): Promise<Response> {

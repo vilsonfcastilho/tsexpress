@@ -6,7 +6,7 @@ import '@shared/infra/typeorm';
 import '@shared/container';
 
 import globalExceptionHandler from '@shared/infra/http/middlewares/globalExceptionHandler';
-import router from './routes';
+import router from '@shared/infra/http/routes';
 
 const app = express();
 
