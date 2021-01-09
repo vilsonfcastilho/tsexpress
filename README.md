@@ -13,8 +13,8 @@ A TypeScript starter for Express that includes all you need to build amazing pro
 
 ## 🚀 Getting started
 
-Clone this repository;
-Configure your database on './ormconfig.json';
+Clone this repository;<br />
+Configure your database on './ormconfig.json';<br />
 And run the following commands inside the project folder:
 
 1. `npm install` or `yarn`;
@@ -34,7 +34,7 @@ Your migrations will be created on './src/shared/infra/typeorm/migrations'.
 
 ## 🎭 Testing you codes
 
-Create your tests using the '.spec.ts' extension;
+Create your tests using the '.spec.ts' extension;<br />
 And run the following command to run the tests and create a covarage report:
 
 1. `npm run test` or `yarn test`;
