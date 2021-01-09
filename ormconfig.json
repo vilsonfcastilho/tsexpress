@@ -2,9 +2,9 @@
   "type": "postgres",
   "host": "localhost",
   "port": 5432,
-  "username": "postgres",
-  "password": "docker",
-  "database": "tsexpress",
+  "username": "username",
+  "password": "password",
+  "database": "database",
   "entities": [
     "./src/modules/**/infra/typeorm/entities/*.ts"
   ],
