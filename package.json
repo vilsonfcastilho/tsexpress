@@ -1,5 +1,5 @@
 {
-  "name": "typescript-express-starter",
+  "name": "tsexpress",
   "description": "A TypeScript starter for Express that includes all you need to build amazing projects",
   "version": "1.0.0",
   "main": "index.js",
