@@ -3,7 +3,7 @@
   "description": "A TypeScript starter for Express that includes all you need to build amazing projects",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/vilsonfcastilho/typescript-express-starter.git",
+  "repository": "https://github.com/vilsonfcastilho/tsexpress.git",
   "author": "Vilson Castilho <vilsonfcastilho@gmail.com>",
   "license": "MIT",
   "scripts": {
