@@ -22,7 +22,7 @@ And run the following commands inside the project folder:
 
 To view the project open `http://localhost:3333`.
 
-## 🧱 Building migrations
+## 🧱 Building your migrations
 
 Work with your migrations using the following commands:
 
@@ -32,7 +32,7 @@ Work with your migrations using the following commands:
 
 Your migrations will be created on './src/shared/infra/typeorm/migrations'.
 
-## 🎭 Testing you codes
+## 🎭 Testing your codes
 
 Create your tests using the '.spec.ts' extension;<br />
 And run the following command to run the tests and create a covarage report:
